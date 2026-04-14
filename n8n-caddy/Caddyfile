@@ -1,0 +1,7 @@
+{
+	email {$ACME_EMAIL}
+}
+
+goproton8n.goecloud.eu {
+	reverse_proxy n8n:5678
+}
