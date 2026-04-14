@@ -30,7 +30,6 @@ services:
       WEBHOOK_URL: ${WEBHOOK_URL:-https://goproton8n.goecloud.eu/}
       GENERIC_TIMEZONE: ${GENERIC_TIMEZONE:-Europe/Berlin}
       TZ: ${TZ:-Europe/Berlin}
-      N8N_ENCRYPTION_KEY: ${N8N_ENCRYPTION_KEY:?Set N8N_ENCRYPTION_KEY in .env}
     volumes:
       - n8n_data:/home/node/.n8n
     networks:
